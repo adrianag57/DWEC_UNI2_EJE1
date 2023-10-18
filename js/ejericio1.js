@@ -1,7 +1,7 @@
 var nombre = prompt("Introduce tu nombre y apellidos: ");
 console.log("El nombre introducido es : " + nombre);
 
-console.log("El tamaño del nombre y apellidos sin espacios es de: " + entrada.split("").join("").length);
+console.log("El tamaño del nombre y apellidos sin espacios es de: " + entrada.split(" ").join("").length);
 console.log("El tamaño del nombre y apellidos sin espacios es de: " + entrada.replaceAll(" ", "").length);
 
 console.log("Minus: " + entrada.toLowerCase());
